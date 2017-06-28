@@ -10,3 +10,5 @@ Chapter 6: Bai Hao
 4.15前搞定
 Charpter 10
 
+6.28 翻译修改
+
