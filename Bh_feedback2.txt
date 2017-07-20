@@ -1,0 +1,22 @@
+
+1. [Page 95]我认为此处S1 和S3不宜修改成下标形式，这样才能与图6-5 、6-4保持一致，否则要修改3处包括修改原著的图6-5/6-4
+
+2. [Page 95]We do this by determining the probability that a state will happen given
+its emissions as well as the probability that it will transition from the previous state to
+the current. 
+我们可以确定下一个将发生状态的输出概率和从之前状态变成当前状态的转移概率。
+
+
+3. [Page 88]To figure this out, we need to determine the probability that a user is in the customer
+state given all her previous states, or notationally, P(Customer | S1, S2), as well as the probability 
+of the user viewing the product page given that she was a customer multiplied by the probability of 
+signup given the state, or notationally, P(Product_Page |Customer) * P(Signup_Page | S2) * P(Homepage | S1). 
+The problem here is that there are more unknowns than knowns.
+
+为了解决上述问题，我们需要确定一个用户处于客户状态的真实概率，这个概率的确定需要考虑当前用户之前的所有状态，以符号 P(Customer | S1, S2)表示。
+这个概率的计算可以分成三部分，第一部分是当前用户为消费者客户的情况下查看产品页面的概率以符号P(Product_Page |Customer) 表示，
+第二部分是用户状态为S2时浏览注册页的概率，以符号 P(Signup_Page|S2)表示，
+第三部分是用户处于状态S1下浏览主页的概率，以符号P(Homepage|S1)表示，然后将三部分相乘即可确定一个用户处于客户状态的概率。
+但是这里存在一个问题，就是目前我们已知的参数比未知的要多。
+
+注：条目3的所有S1、S2都需要以下标形式排版。
