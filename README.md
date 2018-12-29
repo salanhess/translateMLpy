@@ -45,6 +45,96 @@ Charpter 10
 2018年12月29日23:51:09
 
 约定的统称
+(图译)
+
+SVM 支持向量机
+SVM with linear kernel SVM线性
+SVM with RBF kernel RBF内核SVM
+SVM with Polynomial(degree 3)kernel 三次多项式核SVM
+LinearSVM linearSVM
+
+
+译者注： https://stackoverflow.com/questions/45384185/what-is-the-difference-between-linearsvc-and-svckernel-linear
+
+
+mean CV Score 平均交叉验证得分
+brain(gr)  脑容量（gr）
+body(kg)   体积(kg)
+linear SVM 线性核
+Gaussian SVM 高斯核
+Linear regression(log transformed) 线性回归（对数变换）
+
+
+maximum margin hyperplane  最大间隔超平面
+maximum margin              最大间隔
+
+
+
+User 用户
+ID 标号
+film 影片
+box office 票房收入
+For Children 儿童电影的适宜性
+Oscar  奥斯卡获奖影片
+
+Noisy J 带有噪声的字母Jsing.values S=1 奇异值 S 重构1
+
+singular value 奇异值
+component   主成分
+explained variance rate 解释方差比
+eigenvalue 特征值screen plot 碎石图
+
+
+屏幕情节
+零件
+~~~~~~
+bagging 套袋           <---need discuss 7.3.1
+boosting 助推           <---need discuss 7.3.2 
+ada-boost  ada-助推法 
+randomforest 随机森林
+extra trees  极端随机树   <---need discuss 7.3.2 
+
+~~~~~~~~~~~~
+
+true positive rate 真阳性率
+false positive rate 假阳性率
+Decision tree 决策树
+bagging 套袋           <---need discuss 7.3.1
+boosting 助推           <---need discuss 7.3.2 
+ada-boost  ada-助推法 
+randomforest 随机森林
+extra trees  极端随机树   <---need discuss 7.3.2 
+guess  随机猜测
+
+
+
+集成模型
+Ada-Boost (AUC = 0.83)
+
+
+training data 训练数据
+set           集合
+classif1      分类器
+ensemble      集成分类器
+
+
+female 女性
+entropy 熵
+samples 样本
+value   值
+class   类
+dead    死亡
+surived 幸存
+
+Max.Depth 不同的树深度
+Mini samples leaf最小样本叶子
+Classification Accuracy 交叉验证平均分数
+
+Impurity 基尼不纯度
+Entropy熵
+gini 基尼
+Classification error 分类错误
+
 Hervibore 草食动物
 Limbs 肢体数
 Mammal 哺乳动物
@@ -78,40 +168,3 @@ std err 标准方差
 body  体重
 P>|t| 小P值
 95％ Conf. Interval 95％置信区间
-    
-           
-Hervibore 草食动物
-Limbs 肢体数
-Mammal 哺乳动物
-Giant panda 大熊猫
-filed mouse 田鼠
-mollusc 软体动物
-octopus 章鱼
-reptile 爬行动物
-iberian lynx 伊比利亚猞猁
-python 蟒蛇
-
-
-动物           肢体数量  是否为食草动物
--------------------------------
-蟒蛇            0           否
-伊比利亚山猫    4          否
-大熊猫          4          是
-田鼠            4          是
-章鱼            8          否
-
-
-纵轴：真阳性
-横轴：假阳性
-guessing:概率估计
-Mean Roc:平均Roc
-
-
-Intercept 截距   
-coef 系数   
-std err 标准方差
-body  体重
-P>|t| 小P值
-95％ Conf. Interval 95％置信区间
-    
-           
