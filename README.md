@@ -41,3 +41,77 @@ Charpter 10
 [Done]1.报名表已提交
 [Done]]2.(8.13)提交样张给编辑王春华
 [Done]]3.(10.31）初稿
+
+2018年12月29日23:51:09
+
+约定的统称
+Hervibore 草食动物
+Limbs 肢体数
+Mammal 哺乳动物
+Giant panda 大熊猫
+filed mouse 田鼠
+mollusc 软体动物
+octopus 章鱼
+reptile 爬行动物
+iberian lynx 伊比利亚猞猁
+python 蟒蛇
+
+
+动物           肢体数量  是否为食草动物
+-------------------------------
+蟒蛇            0           否
+伊比利亚山猫    4          否
+大熊猫          4          是
+田鼠            4          是
+章鱼            8          否
+
+
+纵轴：真阳性
+横轴：假阳性
+guessing:概率估计
+Mean Roc:平均Roc
+
+
+Intercept 截距   
+coef 系数   
+std err 标准方差
+body  体重
+P>|t| 小P值
+95％ Conf. Interval 95％置信区间
+    
+           
+Hervibore 草食动物
+Limbs 肢体数
+Mammal 哺乳动物
+Giant panda 大熊猫
+filed mouse 田鼠
+mollusc 软体动物
+octopus 章鱼
+reptile 爬行动物
+iberian lynx 伊比利亚猞猁
+python 蟒蛇
+
+
+动物           肢体数量  是否为食草动物
+-------------------------------
+蟒蛇            0           否
+伊比利亚山猫    4          否
+大熊猫          4          是
+田鼠            4          是
+章鱼            8          否
+
+
+纵轴：真阳性
+横轴：假阳性
+guessing:概率估计
+Mean Roc:平均Roc
+
+
+Intercept 截距   
+coef 系数   
+std err 标准方差
+body  体重
+P>|t| 小P值
+95％ Conf. Interval 95％置信区间
+    
+           
