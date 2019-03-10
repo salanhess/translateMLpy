@@ -56,6 +56,13 @@ LinearSVM linearSVM
 
 译者注： https://stackoverflow.com/questions/45384185/what-is-the-difference-between-linearsvc-and-svckernel-linear
 
+2019年1月16日13:11
+反馈意见，进行修改
+
+2019年3月10日10:19:31
+终审 feedback  
+
+
 
 mean CV Score 平均交叉验证得分
 brain(gr)  脑容量（gr）
